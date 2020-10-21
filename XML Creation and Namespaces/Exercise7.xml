@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books:root xmlns:books="https://www.w3schools.com/books/"
+            xmlns:records="https://www.w3schools.com/records/">
+    <books:book>
+        <books:title>A true story</books:title>
+        <books:description>A real cool publication</books:description>
+    </books:book>
+    <records:record>
+        <records:record>Miller</records:record>
+        <records:title>Dr.</records:title>
+        <records:publications> ... </records:publications>
+    </records:record>
+</books:root>

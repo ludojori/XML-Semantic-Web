@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conditions>
+    <condition name="Equal to">
+        <operator> = </operator>
+        <example> =A1=B1 </example>
+        <description>The formula returns TRUE if a value in cell A1 is equal tothe values in cell B1; FALSE otherwise.</description>
+    </condition>
+    <condition name="Not equal to">
+        <operator> &lt;&gt; </operator> <!--<operator><![CDATA[<>]]></operator>-->
+        <example> =A1&lt;&gt;B1 </example> <!--<example>=A1<![CDATA[<>]]>B1</example>--> <!--<example><![CDATA[=A1<>B1]]></example>-->
+        <description>The formula returns TRUE if a value in cell A1 is not equal to the value in cell B1; FALSE otherwise.</description>
+    </condition>
+    <condition name="Greater than">
+        <operator> &gt; </operator> <!--<operator><![CDATA[>]]></operator>-->
+        <example> =A1&gt;B1 </example>
+        <description>The formula returns TRUE if a value in cell A1 is greater than a value in cell B1; otherwise it returns FALSE.</description>
+    </condition>
+    <condition name="Less than">
+        <operator> &lt; </operator> <!--<operator><![CDATA[<]]></operator>-->
+        <example> =A1&lt;B1 </example>
+        <description>The formula returns TRUE if a value in cell A1 is less than in cell B1; FALSE otherwise.</description>
+    </condition>
+    <condition name="Greater than or equal to">
+        <operator> &gt;= </operator> <!--<operator><![CDATA[>=]]></operator>-->
+        <example> =A1&gt;=B1 </example>
+        <description>The formula returns TRUE if a value in cell A1 is greater than or equal to the values in cell B1; FALSE otherwise.</description>
+    </condition>
+    <condition name="Less than or equal to">
+        <operator> &lt;= </operator> <!--<operator><![CDATA[<=]]></operator>-->
+        <example> =A1&lt;=B1 </example>
+        <description>The formula returns TRUE if a value in cell A1 is less than or equal to the values in B1; FALSE otherwise.</description>
+    </condition>
+</conditions>

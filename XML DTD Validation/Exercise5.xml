@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE channel [
+<!ELEMENT channel (item+, title, link, image*, language?, description)>
+<!ELEMENT item ((title, link, description?) | (title, description?, link) | (description?, title, link) |
+                (link, title, description?) | (link, description?, title) | (description?, link, title))>
+<!ELEMENT image ((title, link, url) | (title, url, link) | (url, title, link) |
+                 (link, title, url) | (link, url, title) | (url, link, title))>
+<!ATTLIST channel version CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+]>
+
+<channel version="1.0">
+    <item>
+        <link>item link</link>
+        <description>item description</description>
+        <title>item title</title>
+    </item>
+    <title>channel title</title>
+    <link>channel link</link>
+    <image>
+        <title>image title</title>
+        <link>image link</link>
+        <url>image url</url>
+    </image>
+    <description>channel description</description>
+</channel>

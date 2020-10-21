@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinema-city-paradise>
+    <website url="https://www.cinemacity.bg"/>
+    <basic-info>
+        <address>София, бул. Черни връх 100, в сградата на Paradise Center</address>
+        <phone>02 903 74 74</phone>
+        <email>info.paradise@cinemacity.bg</email>
+        <description>
+            <p>
+                <b>Мултиплекс Cinema City Парадайз разполага с:</b>
+                <bullet symbol="dot" spacing="1">14 модерни киносалона с 2166 места</bullet>
+                <bullet symbol="dot" spacing="1">първата 4DX зала в България</bullet>
+                <bullet symbol="dot" spacing="1">съоръжения за посетители в инвалидни колички</bullet>
+                <bullet symbol="dot" spacing="1">Посетителите на Парадайз център ползват 2 часа безплатен паркинг. За допълнителни 90 минути е необходимо да валидирате талона си за паркиране  на касите при закупуване на билетите за кино.</bullet>
+            </p>
+            <p>
+                <b>Цени на билети, онлайн продажба и резервации на cinemacity.bg</b>
+                Наемане на зали: (02) 903 74 74
+                Продажба на ваучери за кино: (02) 903 74 74
+            </p>
+        </description>
+    </basic-info>
+    <program>
+        <movie title="Title">
+            <date>00/00/0000</date>
+            <hour>00:00:00</hour>
+        </movie>
+    </program>
+    <tickets>
+        <ticket id="1234567890">
+            <day-of-week></day-of-week>
+            <price value="00.00$"/>
+        </ticket>
+    </tickets>
+</cinema-city-paradise>

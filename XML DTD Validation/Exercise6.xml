@@ -1,0 +1,60 @@
+<!-- Source: http://apogee.online/xml/exer/exercise2/exercise2%20no%20sol.html -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE game [
+<!ELEMENT game (match)+>
+<!ELEMENT match (team, team)>
+<!ELEMENT team (player)+>
+<!ELEMENT player (first_name, middle_name?, last_name, penalties?, goals?)>
+<!ELEMENT goals (goal)+>
+<!ELEMENT goal EMPTY>
+<!ELEMENT penalties (penalty)+>
+<!ELEMENT penalty EMPTY>
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT middle_name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ATTLIST game type CDATA #IMPLIED>
+<!ATTLIST match final_score CDATA #REQUIRED>
+<!ATTLIST team name CDATA #IMPLIED>
+<!ATTLIST goal time CDATA #REQUIRED>
+<!ATTLIST penalty type (yellow | red) #REQUIRED time CDATA #REQUIRED>
+]>
+
+<game>
+    <match final_score="1:1">
+        <team name="Red Coats">
+            <player>
+                <first_name>Jeffrey</first_name>
+                <last_name>Johnson</last_name>
+                <goals>
+                    <goal time="12:00:00"/>
+                </goals>
+            </player>
+            <player>
+                <first_name>Jimmy</first_name>
+                <middle_name>K.</middle_name>
+                <last_name>Fallon</last_name>
+                <penalties>
+                    <penalty type="yellow" time="13:00:00"/>
+                </penalties>
+            </player>
+        </team>
+        <team name="Yellow Jackets">
+            <player>
+                <first_name>Steve</first_name>
+                <last_name>Rogers</last_name>
+            </player>
+            <player>
+                <first_name>Alex</first_name>
+                <middle_name>F.</middle_name>
+                <last_name>Mercer</last_name>
+                <penalties>
+                    <penalty type="yellow" time="11:20:00"/>
+                </penalties>
+                <goals>
+                    <goal time="14:50:00"/>
+                </goals>
+            </player>
+        </team>
+    </match>
+</game>

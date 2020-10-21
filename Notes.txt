@@ -1,0 +1,9 @@
+DTD defines the XML document format like building blocks, default values etc.
+XSchema is a more powerful alternative to DTD.
+DOM (Document Object Model) is created when a browser loads a web page. (tree structure)
+SAX (Simple API for XML) is a standard (diagram).
+StAX (Streaming API for XML) for reading-writing XML documents. (DOM/event based)
+XSLT (eXtensible Stylesheet Language Transformations) manipulates (add/remove/rearrange/sort) elements from an output file. (far more sophisticated than CSS)
+RDF (Resource Description Framework) is designed to be read by computers and describes time schedules for web events, info about web pagers, electronic libraries etc.
+OWL (Ontology Web Language) - something about ontologies, definitely not for the human eye.
+SPARQL (SPARQL Protocol and RDF Query Language) is a semantic language for databases, retrieves and manipulates data stored in RDF format.

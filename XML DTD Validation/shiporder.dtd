@@ -1,3 +1,5 @@
+<!-- Source: http://apogee.online/xml/exer/exercise2/exercise2.html -->
+
 <?xml version="1.0"?>
 <!DOCTYPE shiporder[
 <!ELEMENT shiporder (orderperson,shipto,item+)>

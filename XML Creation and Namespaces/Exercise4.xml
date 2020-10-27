@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding ="UTF-8"?>
 <!-- Source: http://apogee.online/xml/exer/exercise1/exercise1.html -->
 
-<?xml version="1.0" encoding="UTF-8"?>
 <conditions>
     <condition name="Equal to">
         <operator>=</operator>

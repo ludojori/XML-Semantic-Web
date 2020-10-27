@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Source: http://apogee.online/xml/exer/exercise2/exercise2.html -->
 
-<?xml version="1.0" encoding="UTF-8"?>
 <!ELEMENT games (game)*>
 <!ELEMENT game(home-team, ex-team, scores, yellows, reds)>
 <!ELEMENT home-team (#PCDATA)>

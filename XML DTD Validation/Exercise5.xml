@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Source: http://apogee.online/xml/exer/exercise2/exercise2.html -->
 
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE channel [
 <!ELEMENT channel (item+, title, link, image*, language?, description)>
 <!ELEMENT item ((title, link, description?) | (title, description?, link) | (description?, title, link) |

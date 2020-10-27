@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Source: http://apogee.online/xml/exer/exercise2/exercise2.html -->
 
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Course_Catalog [
 <!ELEMENT Chair (Professor)>
 <!ELEMENT Title (#PCDATA)>

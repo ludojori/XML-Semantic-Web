@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML example instance, validated with XML Schema located at Exercise1.xml -->
+
+<collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XXXX.xsd">
+    <description>Random description...</description>
+    <recipe>
+        <title>Recipe 1</title>
+        <ingredient name="Ingredient 1" amount="2" unit="g"></ingredient>
+        <ingredient name="Ingredient 2">
+            <preparation></preparation>
+        </ingredient>
+        <preparation>
+            <step>Step 1 for prep</step>
+            <step>Step 2 for prep</step>
+        </preparation>
+        <comment>Comment for recipe 1...</comment>
+        <nutrition protein="5.6" carbohydrates="4.5" fat="2.3" calories="6.6" alcohol="3%"/>
+    </recipe>
+</collection>
